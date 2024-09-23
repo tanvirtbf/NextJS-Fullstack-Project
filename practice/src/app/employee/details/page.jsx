@@ -2,7 +2,7 @@
 const page = () => {
   return (
     <div>
-      Employee Details Page
+      {throw new er}
     </div>
   )
 }
