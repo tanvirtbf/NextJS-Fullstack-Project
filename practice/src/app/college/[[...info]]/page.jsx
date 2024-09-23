@@ -4,7 +4,8 @@ const page = ({params}) => {
   const {info} = params
   return (
     <div>
-      {info.map((item)=> <p>{item}</p>)}
+      College
+      {info && info.map((item)=> <p>{item}</p>)}
     </div>
   )
 }
