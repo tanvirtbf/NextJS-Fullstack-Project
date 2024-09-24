@@ -1,5 +1,4 @@
 "use client"
-
 const FormValidation = () => {
   return (
     <div className="max-w-4xl mx-auto mt-20 bg-cyan-200 p-10 min-h-[400px]">
