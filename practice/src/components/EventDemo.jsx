@@ -1,11 +1,11 @@
 import React from 'react'
 
-const page = () => {
+const EventDemo = () => {
   return (
     <div>
-      Gallery Page
+      
     </div>
   )
 }
 
-export default page
+export default EventDemo
