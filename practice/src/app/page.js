@@ -1,10 +1,9 @@
-import EventDemo from "@/components/EventDemo";
+import FormValidation from "@/components/FormValidation";
 
 export default function Home() {
-
   return (
     <>
-      <EventDemo />
+      <FormValidation />
     </>
-  )
+  );
 }
