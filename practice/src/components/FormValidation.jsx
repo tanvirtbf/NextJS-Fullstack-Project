@@ -1,8 +1,24 @@
 "use client"
+
+import { useRef, useState, useEffect } from "react"
+
+
 const FormValidation = () => {
+
+  const [formData,setFormData] = useState({})
+  const [errors,setErrors] = useState({})
+
+  function validate(form){
+    return form
+  }
+
+  function handleSubmit(e){
+    e.preventDefault()
+  }
+
   return (
     <div className="max-w-4xl mx-auto mt-20 bg-cyan-200 p-10 min-h-[400px]">
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="flex justify-between px-10 flex-col">
           <label>User Name</label>
           <input type="text" />
