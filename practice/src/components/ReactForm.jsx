@@ -14,9 +14,10 @@ const ReactForm = () => {
       console.log(form)
     })
 
-    // await axios.get('/api/register').then((res)=> {
-    //   setMessage(res.data.message)
-    // })
+    await axios.get('/api/employee').then((res)=> {
+      console.log(res)
+    })
+
   }
 
   return (
