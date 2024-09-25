@@ -1,9 +1,9 @@
-import ReactForm from "@/components/ReactForm";
+import RegisterComponent from "@/components/RegisterComponent";
 
 export default function Home() {
   return (
     <>
-      <ReactForm />
+      <RegisterComponent />
     </>
   );
 }

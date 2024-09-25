@@ -9,6 +9,10 @@ export async function GET(request, response) {
 
 export async function POST(req,res){
   const body = await req.json()
-  console.log(body)
+  return NextResponse.json({email: body.email})
+}
+
+export async function DELETE(req,res){
+  const body = await req.json()
   return NextResponse.json({email: body.email})
 }
