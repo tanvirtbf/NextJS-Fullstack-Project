@@ -8,5 +8,7 @@ export async function GET(request, response) {
 }
 
 export async function POST(req,res){
-  return NextResponse.json({message:'POST Request!'})
+  const body = await req.json()
+  console.log(body)
+  return NextResponse.json({email: body.email})
 }

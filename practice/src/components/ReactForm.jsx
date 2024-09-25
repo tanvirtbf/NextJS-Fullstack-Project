@@ -9,10 +9,10 @@ const ReactForm = () => {
 
   const onSubmit = async (form)=> {
 
-    await axios.post('/api/register').then((res)=> {
-      setMessage(res.data.message)
+    await axios.post('/api/register',form).then((res)=> {
+      setMessage(res.data.email)
+      console.log(form)
     })
-
 
     // await axios.get('/api/register').then((res)=> {
     //   setMessage(res.data.message)
