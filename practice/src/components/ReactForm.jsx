@@ -6,6 +6,7 @@ const ReactForm = () => {
   function onSubmit(form){
     console.log(form)
   }
+  
   return (
     <div className="max-w-xl mx-auto mt-20">
       <div>
